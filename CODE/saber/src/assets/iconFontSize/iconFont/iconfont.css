@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2874103 */
+  src: url('iconfont.woff2?t=1634873337801') format('woff2'),
+       url('iconfont.woff?t=1634873337801') format('woff'),
+       url('iconfont.ttf?t=1634873337801') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-geshishua2:before {
+  content: "\e6d1";
+}
+
+.icon-geshishua2-copy:before {
+  content: "\ec0b";
+}
+
+.icon-geshishua1:before {
+  content: "\e655";
+}
+
+.icon-geshishua1-copy:before {
+  content: "\ec0a";
+}
+
+.icon-gerenxinxi1:before {
+  content: "\e670";
+}
+
+.icon-tuichudenglu:before {
+  content: "\e61e";
+}
+
+.icon-gerenxinxi:before {
+  content: "\e641";
+}
+
+.icon-guanyu:before {
+  content: "\e604";
+}
+
+.icon-wanggexian:before {
+  content: "\e600";
+}
+
+.icon-chexiao:before {
+  content: "\e612";
+}
+
+.icon-wangge:before {
+  content: "\e650";
+}
+
+.icon-fabu:before {
+  content: "\ec09";
+}
+
+.icon-baocun:before {
+  content: "\e67c";
+}
+
+.icon-chexiaofabu:before {
+  content: "\e63d";
+}
+
+.icon-geshishua:before {
+  content: "\fffff";
+}
+

@@ -1,0 +1,59 @@
+.el-table--border:after,
+.el-table--group:after,
+.el-table:before {
+  background-color: #d4d4d4 !important;
+}
+
+.el-table--border,
+.el-table--group {
+  border-color:  #d4d4d4 !important;
+}
+
+.el-table td,
+.el-table th.is-leaf {
+  border-bottom: 1px solid  #d4d4d4 !important;
+}
+
+.el-table--border th,
+.el-table--border th.gutter:last-of-type {
+  border-bottom: 1px solid  #d4d4d4 !important;
+}
+
+.el-table--border td,
+.el-table--border th {
+  border-right: 1px solid  #d4d4d4 !important;
+}
+
+.el-table--border, .el-table--group {
+  border-bottom: none;
+}
+
+.el-table__fixed-right::before, .el-table__fixed::before {
+  background-color: #d4d4d4 !important;
+}
+
+.el-input__inner {
+  border: 1px solid #d4d4d4;
+}
+
+element.style {
+}
+.avue-crud .el-table th {
+  background-color: #e5e5e5 !important;
+}
+
+.el-table th {
+  background-color: #e5e5e5 !important;
+}
+
+.el-table__body tr.current-row>td {
+  background-color: #D0E5FF !important;
+}
+
+.el-table .cell {
+  line-height: 24px !important;
+}
+
+.el-table {
+  color: #000000;
+}

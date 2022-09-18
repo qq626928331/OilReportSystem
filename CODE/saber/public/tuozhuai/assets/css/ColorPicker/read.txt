@@ -1,0 +1,31 @@
+���Ǵ��������������ģ��Լ���Ҳ�¿����ã��͹�����.
+
+ע�⣺�����  jquery ��1.8֮ǰ�İ汾��1.8���ϵİ汾������ʹ�á�
+
+��ȥ�����£�ԭ�����£�
+�������ַ�����jQuery1.8֮�󶼲��Ƽ�ʹ�ã��ٷ���1.9ʱ�Ѿ�ȡ��ʹ��live()�����ˣ����Խ��鶼ʹ��on()������
+bind()
+
+����$("p").bind("click",function(){
+��������alert("The paragraph was clicked.");
+����});
+
+
+delegate()
+
+����$("#div2").delegate("p","click",function(){
+��������$(this).css("background-color","pink");
+����});
+
+
+live()
+����$("#div2").live("click",function(){
+��������$(this).css("background-color","pink");
+����});
+
+
+
+��������ȡɫ��ʱ���� jquerycolorpicker.js �� live���� �� on�滻���ɣ��滻���� 1.8 ���ϵ�jquery�汾��Ҳ������.
+
+�� jquerycolorpicker.js �в��� live�������滻Ϊ on ,����Ͳ�˵��
+

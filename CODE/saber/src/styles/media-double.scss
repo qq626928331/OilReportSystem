@@ -1,0 +1,39 @@
+/**
+兼容  1366以及1920 分辨率的写法
+ */
+
+
+
+.tableInner .el-input .el-input--mini .el-input__inner {
+  height: 23px;
+  line-height: 23px;
+}
+
+.el-card__body {
+  padding: 8px;
+}
+
+@media screen and (max-width: 1366px) {
+
+  .el-form-item__label {
+    padding: 0px !important;
+  }
+
+  .el-input--mini .el-input__inner {
+    //width: 125px !important;
+    padding: 0 15px 0px 5px;
+  }
+
+  .el-input .el-input--mini .el-input--suffix{
+    width: auto !important;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .el-input--mini .el-input__inner {
+    padding: 0 15px 0px 5px;
+  }
+  .el-form-item__label {
+    padding: 0 12px 0 0;
+  }
+}

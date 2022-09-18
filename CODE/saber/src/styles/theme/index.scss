@@ -1,0 +1,39 @@
+// white
+@import './white.scss';
+
+//dark
+@import './dark.scss';
+
+// star
+@import './star.scss';
+
+// vip
+@import './vip.scss';
+
+// d2
+@import './d2.scss';
+
+// bule
+@import './bule.scss';
+
+//iview
+@import './iview.scss';
+
+//heyui
+@import './hey.scss';
+
+
+//lite
+@import './lte.scss';
+
+//cool
+@import './cool.scss';
+
+.avue-tags .el-tabs--card > .el-tabs__header .el-tabs__item {
+    margin: 0 3px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 13px;
+    font-weight: normal;
+    color:#000000;
+}
